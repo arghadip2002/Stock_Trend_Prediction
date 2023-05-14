@@ -4,4 +4,4 @@ It is a Machine Learning Model that Predicts the Closing Prices of Stocks. I hav
 
 Then I have used streamlit to make a web application and integrated the model in it.
 
-Technologies Used : Streamlit, Python, Tensorflow, Keras (Sequential, LSTM)
+Technologies Used : Jupyter Notebook, Streamlit, Python, Tensorflow, Keras (Sequential, LSTM)
