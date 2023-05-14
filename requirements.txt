@@ -5,3 +5,6 @@ pandas
 keras
 tensorflow
 streamlit
+pandas_datareader
+yfinance
+datetime
