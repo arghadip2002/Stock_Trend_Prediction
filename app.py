@@ -95,11 +95,10 @@ for i in range(100, input_data.shape[0]):
 x_test, y_test = np.array(x_test), np.array(y_test)
 y_predicted = model.predict(x_test)
 
-scaler = scaler.scale_
+y_test = pd.DataFrame(y_test)
 
-scale_factor = 1/scaler[0]
-y_predicted = y_predicted*scale_factor
-y_test = y_test*scale_factor
+y_predicted = scaler.inverse_transform(y_predicted)
+y_test = scaler.inverse_transform(y_test)
 
 
 # Visualisation Final
